@@ -33,7 +33,7 @@ jobs:
         run:  npm i -g @slidev/cli
 
       - name: Build
-        run: slidev build --base ISL-Lecture-6
+        run: slidev build --base ISL-Lecture-test
 
       - uses: actions/configure-pages@v3
 
